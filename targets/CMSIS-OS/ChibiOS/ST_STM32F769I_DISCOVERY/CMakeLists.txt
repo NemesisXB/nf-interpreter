@@ -106,6 +106,9 @@ add_executable(
     "${NF_CoreCLR_SOURCES}"
     "${NF_Debugger_SOURCES}"
     "${NF_Diagnostics_SOURCES}"
+
+    # sources for ChibiOS FatFS
+    "${CHIBIOS_FATFS_SOURCES}"
     
     # sources for nanoFramework Network LWIP and Sockets
     "${CHIBIOS_LWIP_SOURCES}"
